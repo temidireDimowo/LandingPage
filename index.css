@@ -1,0 +1,206 @@
+* {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+body {
+  background-color: #f8f9fb;
+}
+.logo {
+  border-radius: 30%;
+  top: 0.5%;
+  left: 5%;
+  width: 136px;
+  height: 136px;
+  position: absolute;
+}
+
+.bottomImage {
+  position: absolute;
+  width: 500px;
+  height: 72%;
+  top: 28%;
+  border-radius: 0% 100% 0px 0px;
+}
+/*
+.logInButton {
+  position: relative;
+  right: 50px;
+  background-color: black;
+  color: white;
+}
+
+
+.registerButton {
+  position: relative;
+  background-color: black;
+  color: white;
+}
+
+
+.redirectButton {
+  border: solid 1px;
+  border: none;
+  background-color: #2488aa;
+  color: white;
+  text-decoration: none;
+}
+.redirectButton,
+.redirect {
+  top: 0px;
+  text-decoration: none;
+  display: inline;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  border-radius: 15px;
+  text-align: center;
+  left: 35%;
+  background-color: f8f9fb;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+}
+
+*/
+.shortLine {
+  position: absolute;
+  width: 72px;
+  height: 2px;
+  left: 0px;
+  top: 10px;
+
+  /* Accent */
+
+  background: #fbd784;
+}
+
+.ready {
+  /* Be prepared for the Mountains and beyond! */
+  font-family: Chronicle Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 100px;
+  /* or 114% */
+  color: #2488aa;
+
+  text-transform: capitalize;
+
+  /* Weiß */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+  display: inline;
+}
+
+.hk {
+  width: 212px;
+  height: 22px;
+  left: 104px;
+  top: 0px;
+  margin-left: 100px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 6px;
+  text-transform: uppercase;
+
+  /* Accent */
+
+  color: #fbd784;
+}
+.container {
+  position: absolute;
+  margin-top: 20px;
+  height: 450px;
+  top: 32%;
+  margin-left: 700px;
+  width: 50%;
+  text-align: left;
+}
+
+.exploreButton {
+  background-color: f8f9fb;
+  border: solid 1px #2488aa;
+
+  background-color: #2488aa;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline;
+  border-radius: 15px;
+  position: relative;
+  margin: 0 0 0 0;
+  top: 30px;
+  padding: 5px 25px 5px 25px;
+  right: auto;
+  left: 30%;
+}
+.navButton {
+  text-align: center;
+
+  background-color: f8f9fb;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline;
+  border-radius: 15px;
+  position: relative;
+  margin: 0 0 0 0;
+  top: 30px;
+  padding: 5px 15px 5px 15px;
+  left: 20%;
+}
+.redirectButton {
+  background-color: f8f9fb;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline;
+  margin-left: 20px;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  top: 10px;
+  left: 75%;
+  border: solid 1px #2488aa;
+
+  background-color: #2488aa;
+  color: white;
+  text-decoration: none;
+}
+
+.exploreLink:visited {
+  color: white;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  font-size: 18px;
+}
+
+.navButton:hover {
+  background-color: #fbd784;
+  color: white;
+}
+
+.shortLine {
+  margin-top: solid 1px black;
+}

@@ -1,0 +1,228 @@
+.mainTable {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table,
+td {
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+.columnOne {
+  text-align: center;
+  padding: 10px 180px 0px 0px;
+  border: none;
+}
+.columnTwo {
+  text-align: center;
+  padding: 10px 180px 0px 30px;
+  border: none;
+}
+.columnThree {
+  text-align: center;
+  padding: 10px 180px 0px 30px;
+  border: none;
+}
+
+.hkcolOne {
+  width: 322px;
+  height: 22px;
+  left: 104px;
+  top: 0px;
+  margin-left: 0px;
+
+  display: block;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  /* Accent */
+
+  color: #fbd784;
+}
+.hkcolTwo {
+  width: 392px;
+  height: 22px;
+  left: 104px;
+  top: 0px;
+  margin-left: 0px;
+
+  display: block;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  /* Accent */
+
+  color: #fbd784;
+}
+
+.hkcolThree {
+  width: 382px;
+  height: 22px;
+  left: 104px;
+  top: 0px;
+  margin-left: 0px;
+
+  display: block;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  /* Accent */
+
+  color: #fbd784;
+}
+
+.colOneShortLine {
+  position: absolute;
+  width: 72px;
+  height: 2px;
+  left: 0px;
+  top: 324px;
+
+  /* Accent */
+
+  background: #fbd784;
+}
+.colTwoShortLine {
+  position: absolute;
+  width: 72px;
+  height: 2px;
+  left: 360px;
+  top: 324px;
+
+  /* Accent */
+
+  background: #fbd784;
+}
+
+.colThreeShortLine {
+  position: absolute;
+  width: 72px;
+  height: 2px;
+  left: 720px;
+  top: 324px;
+
+  /* Accent */
+
+  background: #fbd784;
+}
+
+.imgColOne {
+  width: 300px;
+  height: 300px;
+}
+.readMoreButton {
+  background-color: f8f9fb;
+  border: solid 1px #2488aa;
+
+  background-color: #2488aa;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  display: inline;
+  border-radius: 15px;
+  position: relative;
+  margin: 0 0 0 0;
+  top: 200px;
+  padding: 5px 25px 5px 25px;
+  right: auto;
+  left: 30%;
+}
+
+.readyColOne {
+  font-family: Chronicle Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  width: 282px;
+  height: 22px;
+  left: 104px;
+  top: 0px;
+  margin-left: 0px;
+  text-align: left;
+
+  display: block;
+  /* or 114% */
+  color: #2488aa;
+
+  /* Weiß */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 5px 0px 10px 0px;
+  display: block;
+}
+
+.explainTextColOne {
+  font-family: Chronicle Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  height: 22px;
+  top: 50px;
+  width: 200%;
+
+  text-align: left;
+  position: relative;
+  display: block;
+  /* or 114% */
+  color: #2488aa;
+
+  /* Weiß */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  display: block;
+}
+
+td {
+  padding: 0 15px;
+}
+
+td {
+  padding: 150px;
+  height: 200px;
+}
+
+.colOneContainer {
+  width: 150px;
+}
+
+.colTwoContainer {
+  width: 150px;
+}
+
+.colThreeContainer {
+  width: 150px;
+}
